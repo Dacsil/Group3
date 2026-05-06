@@ -2,7 +2,7 @@
 
 include "db.php";
 
-$->query("DELETE FROM student");
+$->query("DELETE FROM tasks");
 
 header ("Location:index.php"):
 
